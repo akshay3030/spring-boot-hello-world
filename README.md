@@ -5,7 +5,7 @@ Used only following annotations:
 @SpringBootApplication
 @ComponentScan(basePackages={"com.akshay.springboots.controller"})
 @RestController
-@RequestMapping
+@RequestMapping("/hello")
 
 Used following in "application.properties"
 server.port=9000
